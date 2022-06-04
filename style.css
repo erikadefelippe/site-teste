@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header{
+    margin: auto;
+    min-width: 150px;
+    max-width: 800px;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0px;
+    font-family: 'Caveat';
+}
+header > h2{
+    text-align: center;
+    font: lighter 16px 'Caveat', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+nav{
+    text-align: center;
+    background-color: #14213D;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+nav > a{
+    font: bolder 18px 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+}
+
+nav > a:hover{
+    color: #FCA311;
+    transition-duration: 1s;
+}
+
+main{
+    background-color: #E5E5E5;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 2px 8px 2px 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.247);
+}
+main img{
+    width: 100%;
+    display: block;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+    padding: 2px 3px;
+    transition-duration: 0.5s;
+}
+
+main a:hover{
+    background-color: #3a6ea559;
+    color: white;
+}
+
+p{
+    font-family: 'PT Sans';
+    text-align: justify;
+    padding: 5px 30px 5px 5px;
+    line-height: 1.5em;
+}
+p > a::after{
+content: '\00A0\1F517';
+}
+article > h2{
+    font: bolder 20px 'PT Sans', sans-serif;
+    background-image: linear-gradient(to right, #586f7c 5%,#586f7c28, #586f7c00); 
+    color: white;
+    padding-left: 10px;
+}
+
+div.video{
+    position: relative;
+    padding-bottom: 56.5%;
+}
+
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+aside{
+    background-color: #b8b8b8;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > h3{
+    font: bolder 20px 'PT Sans', sans-serif;
+    background-color: #3a6ea5;
+    border-radius: 10px 10px 0 0px;
+    padding: 7px 7px 7px 10px;
+    color: white;
+}
+
+aside > p{
+    padding-left: 10px;
+    text-indent: 10px;
+}
+
+aside > ul{
+    columns: 2;
+    list-style-type: '\1F5F8\00A0\00A0';
+}
+
+footer{
+    text-align: center;
+    background-color: #a4c3b2;
+    padding: 10px;
+    font: italic 15px 'PT Sans', sans-serif;
+}
